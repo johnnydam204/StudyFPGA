@@ -1,0 +1,29 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate F:\DOCS\STUDY\StudyFPGA\Lessons\Unit01-Blinky\SerialFlashLoader.qsys --block-symbol-file --output-directory=F:\DOCS\STUDY\StudyFPGA\Lessons\Unit01-Blinky\SerialFlashLoader --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading Unit01-Blinky/SerialFlashLoader.qsys
+Progress: Reading input file
+Progress: Adding serial_flash_loader_0 [altera_serial_flash_loader 16.0]
+Progress: Parameterizing module serial_flash_loader_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate F:\DOCS\STUDY\StudyFPGA\Lessons\Unit01-Blinky\SerialFlashLoader.qsys --synthesis=VERILOG --output-directory=F:\DOCS\STUDY\StudyFPGA\Lessons\Unit01-Blinky\SerialFlashLoader\synthesis --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading Unit01-Blinky/SerialFlashLoader.qsys
+Progress: Reading input file
+Progress: Adding serial_flash_loader_0 [altera_serial_flash_loader 16.0]
+Progress: Parameterizing module serial_flash_loader_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SerialFlashLoader: Generating SerialFlashLoader "SerialFlashLoader" for QUARTUS_SYNTH
+Info: serial_flash_loader_0: generating top-level entity altera_serial_flash_loader
+Info: serial_flash_loader_0: "SerialFlashLoader" instantiated altera_serial_flash_loader "serial_flash_loader_0"
+Info: SerialFlashLoader: Done "SerialFlashLoader" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
